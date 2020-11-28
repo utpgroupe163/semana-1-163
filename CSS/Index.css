@@ -1,0 +1,120 @@
+*,*::before, *:after{
+  box-sizing: border-box;
+}
+.clearfix: before,
+.clearfix: after{
+  content: '';
+  display: table;
+}
+.clearfix: after{
+  clear: both;
+}
+body {
+  background: url(../Img/Cocuy0.JPG);
+  background-repeat: no-repeat;
+  font-family: Helvetica, Arial, serif;
+}
+#Contenedor{
+  background: none;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.img{
+  position: fixed;
+  margin-left: -180px;
+}
+h1{
+  color:midnightblue;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+h2{
+  font-family: verdana, "Geneva", sans-serif;
+  color: maroon;
+  text-transform: uppercase;
+}
+h3{
+  font-family: "Times New Roman", serif;
+  color: orange;
+  text-transform: uppercase;
+}
+P{
+  font-family: Helvetica, "Geneva", serif;
+  font-size: 18px;
+}
+header nav ul{
+  list-style: none;
+}
+header nav ul li{
+  display: inline-block;
+  margin-right: 40px;
+  color: SaddleBrown;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+header nav ul li a{
+  color: SaddleBrown;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#services{
+  width: 1000px;
+  height: 600px;
+  background: snow;
+  margin:0 auto;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+}
+#news{
+  width: 1000px;
+  height: 600px;
+  background: snow;
+  margin:0 auto;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+}
+#team{
+  width: 1000px;
+  height: 600px;
+  background: snow;
+  margin:0 auto;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+}
+/*section{
+  width: 900px;
+  float: left;
+}*/
+}
+footer{
+  background: FireBrick;
+  width: 1500px;
+  height: 250px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+}
+footer nav ul{
+  list-style: none;
+}
+footer nav ul li a{
+  color: white;
+  margin-left: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
